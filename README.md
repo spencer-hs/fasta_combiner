@@ -1,1 +1,1 @@
-# fasta_combiner
+File combines all .faa files within the current directory into one file separated by a blank line a line of '' characters and another new line. The new file extension is still .faa and allows the bigger fasta file to be read into programs like the EggNog Mapper tool. 
