@@ -8,9 +8,9 @@ if len(sys.argv) <2:
 
 outfile= sys.argv[1]
 OFH=open(outfile,"w")
+dirs= os.listdir('.')
 
-
-for f in os.listdir("C:\Users\Godjira\Desktop\Tester"):
+for f in dirs:
     if f.endswith(".faa"):
         #print(f)
         INFH = open(f)
@@ -23,3 +23,5 @@ print "Output file=", outfile
 
 
 INFH.close()
+
+
